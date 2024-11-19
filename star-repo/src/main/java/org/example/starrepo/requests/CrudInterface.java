@@ -1,9 +1,9 @@
-package org.example.reposervice.repo.requests;
+package org.example.starrepo.requests;
 
     public interface CrudInterface {
         Object create(Object obj);
 
-        Object get(String id);
+        Object read(String id);
 
         Object update(Object obj);
 

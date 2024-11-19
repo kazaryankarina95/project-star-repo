@@ -1,4 +1,4 @@
-package org.example.reposervice.repo.generators;
+package org.example.starrepo.generators;
 
 import java.io.File;
 import java.io.FileOutputStream;

@@ -2,17 +2,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+
 	<parent>
 		<groupId>org.example</groupId>
-		<artifactId>project-start-repo</artifactId>
+		<artifactId>project-star-repo</artifactId>
 		<version>1.0-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath>../pom.xml</relativePath><!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>org.example</groupId>
-	<artifactId>repo-service</artifactId>
+	<artifactId>star-repo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>repo-service</name>
-	<description>repo-service</description>
+	<name>star-repo</name>
+	<description>star-repo</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -26,14 +28,6 @@
 		<tag/>
 		<url/>
 	</scm>
-
-	<repositories>
-		<repository>
-			<id>custom-repo</id>
-			<url>http://localhost:8080/repository/Users/Karina.Kazaryan/IdeaProjects/Star\ repo\ learning\ project/CustomRepo/MvnProjectToBePackaged-1.0-SNAPSHOT.jar
-			</url>
-		</repository>
-	</repositories>
 
 	<dependencies>
 		<dependency>
@@ -60,6 +54,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<!--		<dependency>
+			<groupId>org.example</groupId>
+			<artifactId>mvnproject</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>-->
 	</dependencies>
 
 	<build>

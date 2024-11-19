@@ -1,4 +1,5 @@
-package org.example.reposervice.repo.spec;
+/*
+//package org.example.reposervice.repo.spec;
 
 
 //import io.restassured.builder.RequestSpecBuilder;
@@ -22,7 +23,8 @@ public class Specifications {
         return spec;
     }
 
-  /*  private RequestSpecBuilder reqBuilder() {
+
+  private RequestSpecBuilder reqBuilder() {
 
         var requestBuilder = new RequestSpecBuilder();
         requestBuilder.setBaseUri("http://" + Config.getProperties("host"));
@@ -30,7 +32,8 @@ public class Specifications {
         requestBuilder.setAccept(ContentType.JAR);
         return requestBuilder;
     }
-        /*
+        */
+/*
 
     /*
     public RequestSpecification authSpec(User user) {
@@ -45,6 +48,8 @@ public class Specifications {
         return requestBuilder.build();
     }
 
- */
-}
 
+
+
+
+*/

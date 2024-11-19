@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>project-start-repo</artifactId>
+    <artifactId>project-star-repo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -12,11 +12,11 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.3.2</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath>../</relativePath><!-- lookup parent from repository -->
     </parent>
 
     <modules>
-        <module>repo-service</module>
+        <module>star-repo</module>
         <module>jar-usage</module>
     </modules>
 
@@ -33,6 +33,7 @@
         <tag/>
         <url/>
     </scm>
+
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
@@ -40,12 +41,19 @@
         <assertj-core.version>3.22.0</assertj-core.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>custom-repo</id>
+            <url>http://localhost:8081/artifacts//Users/Karina.Kazaryan/IdeaProjects/Star-repo-learning-project/project-star-repo/star-repo/CustomRepo/MvnProjectToBePackaged-1.0-SNAPSHOT.jar</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>

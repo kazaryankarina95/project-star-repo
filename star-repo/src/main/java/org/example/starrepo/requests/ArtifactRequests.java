@@ -1,6 +1,6 @@
-package org.example.reposervice.repo.requests;
+package org.example.starrepo.requests;
 
-import org.example.reposervice.repo.config.Config;
+import org.example.starrepo.config.Config;
 
 import java.io.File;
 import java.io.IOException;
@@ -36,7 +36,7 @@ public class ArtifactRequests implements CrudInterface {
     }
 
     @Override
-    public Path get(String id) {
+    public Path read(String id) {
         Path filePath = repositoryPath.resolve(id).normalize().toAbsolutePath();
         if (Files.exists(filePath)) {
             return filePath;
