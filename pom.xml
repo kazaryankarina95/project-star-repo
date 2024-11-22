@@ -45,7 +45,7 @@
     <repositories>
         <repository>
             <id>custom-repo</id>
-            <url>http://localhost:8081/artifacts//Users/Karina.Kazaryan/IdeaProjects/Star-repo-learning-project/project-star-repo/star-repo/CustomRepo/MvnProjectToBePackaged-1.0-SNAPSHOT.jar</url>
+            <url>http://localhost:8080/artifacts/Users/Karina.Kazaryan/IdeaProjects/Star-repo-learning-project/project-star-repo/star-repo/CustomRepo/MvnProjectToBePackaged-1.0-SNAPSHOT.jar</url>
         </repository>
     </repositories>
 
