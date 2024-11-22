@@ -4,8 +4,8 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-            String message = Library.sayHello();
-            System.out.println(message); // => "Hello, World!"
+            //String message = Library.sayHello();
+            System.out.println(); // => "Hello, World!"
         }
     }
-        }
+

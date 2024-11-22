@@ -1,4 +1,4 @@
-package org.example.reposervice.repo.config;
+package org.example.starrepo.config;
 
 import java.io.IOException;
 import java.io.InputStream;

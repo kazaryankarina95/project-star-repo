@@ -1,4 +1,4 @@
-package org.example.reposervice.repo.lib;
+package org.example.starrepo.lib;
 
 import org.springframework.stereotype.Service;
 
